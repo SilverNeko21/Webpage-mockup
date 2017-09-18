@@ -1,0 +1,33 @@
+#background{
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	height:1080px;
+}
+
+#top-bar{
+	background-image: url(images/top-bar.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+}
+
+#Google{
+	text-align: center;
+	color: white;
+	position: absolute;
+    top: 25%;
+    left: 52%;
+    transform: translate(-60%, -50%);
+    font-size: 600%;
+    font-family: arial;
+}
+
+#search-bar{
+	background-image: url(images/task-bar.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50px;
+	z-index: 0;
+}
