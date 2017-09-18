@@ -1,33 +1,43 @@
-#background{
-	background-image: url(images/background.jpg);
+#google-image{
+	background-image: url(images/google-image.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: -1;
-	height:1080px;
+	height: 500px;
+	max-height: 100%;
 }
 
 #top-bar{
 	background-image: url(images/top-bar.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
 	height: 100px;
+	max-height: 100%;
 }
 
-#Google{
-	text-align: center;
-	color: white;
-	position: absolute;
-    top: 25%;
-    left: 52%;
-    transform: translate(-60%, -50%);
-    font-size: 600%;
-    font-family: arial;
+#text{
+	color: lightgrey;
+	font-family: arial;
+	font-size: 100%;
+	padding:auto;
+	text-align: left;
 }
 
 #search-bar{
-	background-image: url(images/task-bar.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 50px;
-	z-index: 0;
+	border: 1px solid grey;
+	width: 650px;
+	height:35px;
+	position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+#mic{
+	height: 20px;
+	width: 13px;
+	padding:auto;
+	position: absolute;
+    top: 34%;
+    left: 66%;
+    transform: translate(-50%, -50%);
 }
